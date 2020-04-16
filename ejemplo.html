@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="ejemplo.css">
+    <title>Ejemplos JS</title>
+</head>
+<body>
+
+    <div id="divFormulario">
+        <form id="formulario">
+            <p> ejemplo de control de errores</p>
+            <label>Nombre: </label><input type="text" id="nombre" placeholder="nombre...">
+            <label>Password: </label><input type="password" id="clave" name ="clave" placeholder="password...">
+            <label>Mail: </label><input type="email" id="mail" placeholder="mail...">
+            <div id="botones">
+                <input type="button" onclick="validar()" value="Validar" id="boton">
+            </div>
+
+            <p id="parrafoError"></p>
+            <p id="parrafoFinally"></p>
+
+        </form>
+
+        
+
+    </div>
+  
+ 
+    <script src="ejemplo.js"></script>    
+
+</body>
+</html>

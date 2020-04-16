@@ -1,0 +1,54 @@
+
+#formulario{
+    padding: 10px;
+}
+
+
+input[type=text], [type=password], [type=email] {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+
+  /*como no ponga el label como inline-block no se le puede poner width, que son propiedades de block, y label por defecto es inline.*/
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 20%;
+  }
+
+
+
+
+#formulario label, input{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    
+}
+#boton
+{
+   
+    background-color: rgb(70, 73, 70);
+    color: white;
+   height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+#botones{
+    padding-top: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+
+#divFormulario{
+    background-color: antiquewhite;
+    width: 500px;
+}
+
