@@ -1,3 +1,4 @@
+//comentario que pongo de pruebas
 /*
 function validar(){
     var snombre=Document.getElementById("nombre").value;
