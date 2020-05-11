@@ -48,7 +48,7 @@ input[type=text], [type=password], [type=email] {
 
 
 #divFormulario{
-    background-color: antiquewhite;
+    background-color: red;
     width: 500px;
 }
 
